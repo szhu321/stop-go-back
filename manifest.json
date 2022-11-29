@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Stop go back",
+    "version": "1.0",
+    "description": "Displays a popup that blocks the instinctual need to watch a youtube video.",
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "64": "images/icon-64.png",
+        "128": "images/icon-128.png"
+    },
+    "content_scripts":[
+        {
+            "css": ["styles/popup.css"],
+            "js": ["scripts/popup.js"],
+            "matches": [
+                "https://shengweizhu.com/*",
+                "https://www.youtube.com/*"
+            ]
+        }
+    ]
+}

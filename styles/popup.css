@@ -1,0 +1,50 @@
+
+.stop-go-back_popup {
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+    padding: 100px 0px;
+    background-color: black;
+}
+
+.stop-go-back_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 96px;
+
+    width: 60%;
+    
+    color: white;
+}
+
+.stop-go-back_text{
+    display: flex;
+    font-size: 96px;
+    text-align: center;
+}
+
+.stop-go-back_gobutton{
+    font-size: xx-small;
+    width: 100px;
+    text-align: center;
+    
+}
+
+.stop-go-back_closebutton{
+    font-size: 96px;
+    width: 500px;
+    text-align: center;
+}
+
+.stop-go-back_popup_hide {
+    display: none;
+}
