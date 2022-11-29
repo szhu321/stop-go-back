@@ -14,7 +14,6 @@
             "css": ["styles/popup.css"],
             "js": ["scripts/popup.js"],
             "matches": [
-                "https://shengweizhu.com/*",
                 "https://www.youtube.com/*"
             ]
         }
